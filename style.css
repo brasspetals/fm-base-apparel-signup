@@ -65,26 +65,23 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 6rem 4rem 8rem 4rem;
-}
-
-.heading-wrapper {
-    text-align: center;
-    letter-spacing: 1.1rem;
-    font-size: 2rem;
+    padding: 7rem 3.5rem 5rem 3.5rem;
 }
 
 h1 {
     text-transform: uppercase;
     margin-bottom: -.5rem;
+    text-align: center;
+    letter-spacing: 1.1rem;
+    font-size: 4rem;
+    line-height: 1.08;
+    color: var(--color-primary-dark);
+    max-width: 245px;
 }
 
 .heading--alt {
     font-weight: 300;
-}
-
-.heading--main {
-    color: var(--color-primary-dark);
+    color: var(--color-primary-desaturated-red);
 }
 
 .content {
@@ -197,14 +194,22 @@ h1 {
         padding: 9rem 7rem; 
     }
 
-    .heading-wrapper {
+    h1 {
         text-align: left;
-        font-size: 3rem;
+        font-size: 6rem;
+        max-width: 335px;
+        line-height: 1.12;
+    }
+
+    .content, .signup-form {
+        max-width: 444px;
     }
 
     .content {
         text-align: left;
         font-size: 1.6rem;
+        padding: 2rem 0 3.5rem 0;
+        line-height: 1.7;
     }
 
     .signup-form {
@@ -213,14 +218,22 @@ h1 {
 
     .email {
         font-size: 1.6rem;
+        padding: 1.75rem 3rem;
+        height: 5.6rem;
     }
 
     .error__icon {
-        right: 8.5rem;
-        top: 1.4rem;
+        right: 11.5rem;
+        top: 1.6rem;
+    }
+
+    .error__msg {
+        padding: 0.5rem 3rem;
     }
 
     .btn-submit {
+        padding: 1.8rem 4.4rem;
+        border-radius: 3rem;
         right: -2px;
     }
 }
@@ -254,32 +267,8 @@ h1 {
         padding: 0rem 6rem;
     }
 
-    .content, .signup-form {
-        max-width: 444px;
-    }
-
     .content {
         padding: 2rem 0 4rem 0;
-        line-height: 1.7;
-    }
-
-    .email {
-        padding: 1.75rem 3rem;
-        height: 5.6rem;
-    }
-
-    .error__icon {
-        right: 11.5rem;
-        top: 1.6rem;
-    }
-    
-    .error__msg {
-        padding: 0.5rem 3rem;
-    }
-
-    .btn-submit {
-        padding: 1.8rem 4.4rem;
-        border-radius: 3rem;
     }
 }
 
@@ -296,15 +285,20 @@ h1 {
     #sign-up {
         align-items: flex-start;
         justify-content: center;
-        padding: 6rem 16.5rem 10rem 16.5rem;
+        padding: 9rem 16.5rem 10rem 16.5rem;
     }
 
-    .heading-wrapper {
+    h1 {
+        font-size: 6.4rem;
         letter-spacing: 1.7rem;
-        font-size: 3.2rem;
     }
 
     .heading--alt {
-        margin-bottom: -1rem;
+        display: block;
+        margin-bottom: -.5rem;
+    }
+
+    .content {
+        padding: 2.5rem 0 4rem 0;
     }
 }
