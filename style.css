@@ -148,7 +148,7 @@ h1 {
     color: var(--color-primary-soft-red);
     font-size: 1.4rem;
     line-height: 1.6;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 2rem;
     opacity: 0;
     transition: all .3s;
     align-self: flex-start;
@@ -271,6 +271,10 @@ h1 {
     .error__icon {
         right: 11.5rem;
         top: 1.6rem;
+    }
+    
+    .error__msg {
+        padding: 0.5rem 3rem;
     }
 
     .btn-submit {
